@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tesla Referral Program</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: #0e0e0e;
+            font-family: 'Roboto', sans-serif;
+            color: #ffffff;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden;
+        }
+        .container {
+            text-align: center;
+            animation: fadeIn 1.5s ease-in-out;
+            max-width: 800px;
+            padding: 40px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 15px;
+            box-shadow: 0 0 30px rgba(0, 255, 255, 0.1);
+        }
+        h1 {
+            font-size: 3rem;
+            color: #00d1ff;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 1.3rem;
+            color: #cccccc;
+            margin-bottom: 30px;
+            line-height: 1.6;
+        }
+        .promo-link {
+            display: inline-block;
+            font-size: 1.2rem;
+            color: #ffffff;
+            text-decoration: none;
+            background-color: #00d1ff;
+            padding: 15px 30px;
+            border-radius: 50px;
+            transition: all 0.4s ease;
+            box-shadow: 0 0 20px rgba(0, 209, 255, 0.5);
+        }
+        .promo-link:hover {
+            background-color: #ffffff;
+            color: #00d1ff;
+            box-shadow: 0 0 30px rgba(255, 255, 255, 0.6);
+        }
+        .tesla-image {
+            width: 100%;
+            max-width: 700px;
+            border-radius: 15px;
+            box-shadow: 0 0 30px rgba(0, 255, 255, 0.2);
+            animation: zoomIn 1.5s ease-in-out;
+            margin-bottom: 20px;
+        }
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+        @keyframes zoomIn {
+            0% {
+                transform: scale(0.8);
+                opacity: 0;
+            }
+            100% {
+                transform: scale(1);
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>Unlock Exclusive Tesla Benefits!</h1>
+    <p>Experience the future of driving with Tesla. Use my referral link to access exclusive benefits when purchasing a Tesla vehicle or product. Join the electric revolution today.</p>
+    <img src="https://www.tesla.com/sites/default/files/modelsx-new/social/model-s-hero-social.jpg" alt="Tesla Car" class="tesla-image">
+    <p><a href="https://www.tesla.com/referral/yao440659" class="promo-link" target="_blank">Get Your Tesla with Benefits</a></p>
+</div>
+</body>
+</html>
